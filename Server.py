@@ -5,7 +5,7 @@ import select
 # defining constant variables
 HEADER_LENGTH = 10
 IP = "192.168.1.70"
-PORT = 1234
+PORT = 5555
 # //////////////////////////////////////////////////////////////////////////////////////////
 
 # creates a socket called server_socket, AF_INET designed IPv4 and sock_stream designates TCP over UDP
@@ -47,6 +47,7 @@ def receive_message(client_socket):
 
     except:
         return False
+# //////////////////////////////////////////////////////////////////////////////////////////
 
 
 while True:
